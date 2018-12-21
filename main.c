@@ -1,5 +1,6 @@
-// This is doing a 1000 loops with a 1 sec sleep between HIGH and LOW of the
-// GPIO pin labelled "CTS" on my USEN dongle "ALL IN ONE I2C/SPI/UART/MEM/EPP".
+// This is doing a 10000 loops with a 1 sec sleep between HIGH and LOW of the
+// GPIO pin labelled "CTS" on my CH341A USEN dongle "ALL IN ONE".
+// TODO: document which values (gpio_dir_mask) for all the 6 GPIOs in HIGH or LOW
 
 #include "ch341a.h"
 #include <unistd.h>

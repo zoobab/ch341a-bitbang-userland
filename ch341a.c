@@ -84,7 +84,7 @@ int32_t ch341a_configure(uint16_t vid, uint16_t pid)
         goto release_interface;
     }
 
-    printf("Device reported its revision [%d.%02d]\n", desc[12], desc[13]);
+    printf("OK, found device [%d.%02d]\n", desc[12], desc[13]);
     return 0;
 release_interface:
     libusb_release_interface(dev_handle, 0);
