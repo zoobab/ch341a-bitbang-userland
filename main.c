@@ -19,7 +19,7 @@ int testblink() {
         usleep(1000000);
         ret = ch341a_gpio_instruct(&gpio_dir_mask, &gpio_data);
         if (ret < 0) return -1;
-        printf("data: %x\n", gpio_data);
+        printf("CTS: %x\n", gpio_data);
     }
     return ret;
 }
