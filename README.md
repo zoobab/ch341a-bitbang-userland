@@ -11,6 +11,10 @@ A simple gpio led blink example, using pin ```CTS```.
 This is doing a 10000 loops with a 1 sec sleep between HIGH and LOW of the
 GPIO pin labelled "CTS" on my CH341A USEN dongle "ALL IN ONE".
 
+# Video
+
+![ch341a cts blink](ch341a-blink-libusb.gif "ch341a cts blink")
+
 # Screenshot
 
 ```
